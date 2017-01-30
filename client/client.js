@@ -52,7 +52,7 @@ class ClientManager {
      */
     message(topic, message) {
         console.log(message.toString())
-        this.client.end()
+        this.end();
     }
 
     /**
