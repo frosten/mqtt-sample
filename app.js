@@ -38,11 +38,11 @@ class Engine {
          * Server Events
          */
         sm.action(sm.events.CLIENT_CONNECTED, function (client) {
-            console.log('client connected', client.id);
+            util.log('client connected', client.id);
         });
 
         sm.action(sm.events.PUBLISHED, function (packet, client) {
-            console.log('Published', packet.payload);
+            util.log('Published', packet.payload);
         });
     }
 }
