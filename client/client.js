@@ -19,7 +19,8 @@ class ClientManager {
         }
 
         this.client = mqtt.connect(this.host, {
-             /*Beware that you are exposing yourself to man in the middle attacks, so it is a configuration that is not recommended for production environments.*/
+             /*Beware that you are exposing yourself to man in the middle attacks, 
+             so it is a configuration that is not recommended for production environments.*/
             rejectUnauthorized: false
         });
 
@@ -51,7 +52,7 @@ class ClientManager {
      */
     message(topic, message) {
         console.log(message.toString())
-        this.client.end()
+        this.end();
     }
 
     /**

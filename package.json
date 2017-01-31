@@ -1,14 +1,14 @@
 {
   "name": "server-client-forecast",
   "version": "1.0.0",
-  "description": "cosa sample quiz",
+  "description": "mqtt-sample",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/frosten/cosaforecast.git"
+    "url": "git+ssh://git@github.com/frosten/mqtt-sample.git"
   },
   "keywords": [
     "mqtt",
@@ -20,9 +20,9 @@
   "author": "S. Ferit Arslan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frosten/cosaforecast/issues"
+    "url": "https://github.com/frosten/mqtt-sample/issues"
   },
-  "homepage": "https://github.com/frosten/cosaforecast#readme",
+  "homepage": "https://github.com/frosten/mqtt-sample#readme",
   "dependencies": {
     "forecast.io": "0.0.11",
     "jsonwebtoken": "^7.2.1",
